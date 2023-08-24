@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- HEADER START -->
+    <header class="header">
+        <div class="header__container container">
+            <a class="site__logo" href="#">
+                <img src="./images/logo-img.svg" alt="Site logo img">
+            </a>
+            <nav class="sitenav">
+                <ul class="sitenav__list">
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">
+                            Features
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                    </li>
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">
+                            Company
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                    </li>
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">
+                            Careers
+                        </a>
+                    </li>
+                    <li class="sitenav__item">
+                        <a class="sitenav__link" href="#">
+                            About
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__register">
+                <a class="header__login" href="#">Login</a>
+                <a class="white__btn" href="#">Register</a>
+            </div>
+            <a class="header__bars" href="#">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <!-- HEADER END -->
+    
+    <!-- MAIN START-->
+    <main class="main">
+        <section class="hero">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Make <br>
+                        remote work
+                    </h1>
+                    <p class="hero__description">
+                        Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.
+                    </p>
+                    <a class="black__btn" href="#">Learn more</a>
+                    <div class="hero__company">
+                        <ul class="hero__list">
+                            <li class="hero__item">
+                                <a class="hero__company__icon" href="#">
+                                    <img src="./images/databiz.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="hero__item">
+                                <a class="hero__company__icon" href="#">
+                                    <img src="./images/audiophile.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="hero__item">
+                                <a class="hero__company__icon" href="#">
+                                    <img src="./images/meet.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="hero__item">
+                                <a class="hero__company__icon" href="#">
+                                    <img src="./images/maker.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <picture>
+                    <source class="responsive__img" media="(max-width:970px)" srcset="./images/hero-img-responsive.png">
+                    <img src="./images/hero-img.png" alt="Hero image" style="width:auto;">
+                </picture>
+            </div>
+        </section>
+    </main>
+    <!-- MAIN END-->
+
+    <!-- FOOTER START -->
+    <footer class="footer"></footer>
+    <!-- FOOTER END -->
+</body>
+</html>
